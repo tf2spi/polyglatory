@@ -1,0 +1,15 @@
+---
+interface Props {
+	native: string;
+	foreign: string;
+}
+
+const { native, foreign } = Astro.props;
+---
+
+<div>
+	<h3>{foreign}</h1>
+	<p>{native}</p>
+</div>
+<style>
+</style>

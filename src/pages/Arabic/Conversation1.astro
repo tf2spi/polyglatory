@@ -1,0 +1,40 @@
+---
+import Layout from  '../../layouts/Layout.astro'
+import Dialogue from '../../components/Dialogue.astro'
+import Vocabulary from '../../components/Vocabulary.astro'
+---
+
+<html>
+	<head>
+		<title>Arabic Conversation 1</title>
+		<meta charset="utf-8"></meta>
+	</head>
+	<body>
+		<h1>أول المحاديثة</h1>
+		<Dialogue name="عمر" text="اهلا وساهلا يا حياة" />
+		<Dialogue name="حياة" text="مرحبا يا عمر. كيفك؟" />
+		<Dialogue name="عمر" text="بخير, شكرا. انت؟" />
+		<Dialogue name="حياة" text="انا ايضا بخير. عفوا... نسيت شيئا مهم. آسف. مع السلامة" />
+		<Dialogue name="عمر" text="لولولولولولول .مع سلامة" />
+
+		<h2>Vocabulary</h2>
+		<Vocabulary native="Conversation" foreign="المحاديثة" />
+		<Vocabulary native="First" foreign="اول" />
+		<Vocabulary native="Omar (name)" foreign="عمر" />
+		<Vocabulary native="Hayaat (name)" foreign="حياة" />
+		<Vocabulary native="Welcome!" foreign="اهلا" />
+		<Vocabulary native="Welcome! (More Excited)" foreign="اهلا وساهلا" />
+		<Vocabulary native="How are you?" foreign="كيفك" />
+		<Vocabulary native="(I'm) good" foreign="بخير" />
+		<Vocabulary native="Thanks" foreign="شكرا" />
+		<Vocabulary native="Conversation" foreign="عفوا" />
+		<Vocabulary native="(I) Forgot" foreign="نسيت" />
+		<Vocabulary native="Something" foreign="شيئا" />
+		<Vocabulary native="Important" foreign="مهم" />
+		<Vocabulary native="Sorry" foreign="آسف" />
+		<Vocabulary native="With" foreign="مع" />
+		<Vocabulary native="Safety" foreign="السلامة" />
+		<Vocabulary native="Goodbye" foreign="مع السلامة" />
+		<Vocabulary native="Lolololololol (Onomatopoeia)" foreign="لولولولولولول" />
+	</body>
+</html>
