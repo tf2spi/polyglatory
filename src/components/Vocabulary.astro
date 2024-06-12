@@ -8,8 +8,14 @@ const { native, foreign } = Astro.props;
 ---
 
 <div>
-	<h3>{foreign}</h1>
-	<p>{native}</p>
+	<h3 class="word">{foreign}</h1>
+	<p class="definition">{native}</p>
 </div>
 <style>
+	.word {
+		color: blue;
+	}
+	.definition {
+		color: green;
+	}
 </style>

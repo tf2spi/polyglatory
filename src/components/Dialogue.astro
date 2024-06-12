@@ -1,14 +1,21 @@
 ---
 interface Props {
 	name: string;
+	clazz: string;
 }
 
-const { name } = Astro.props;
+const { name, clazz } = Astro.props;
 ---
 
 <div>
-	<h3>{name}</h1>
-	<p><slot /></p>
+	<h3 class={clazz}>{name}</h3>
+	<p class={clazz}><slot /></p>
 </div>
 <style>
+	.p1 {
+		color: blue;
+	}
+	.p2 {
+		color: green;
+	}
 </style>
